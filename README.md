@@ -1,10 +1,11 @@
 # BeagleY-AI Bluetooth Speaker
+## Description 
 Developed an embedded Linux application for the BeagleY-AI board that enables it to function as a Bluetooth speaker using the BlueZ stack and bluez_inc library with integrated voice command capabilities. The project supports real-time audio streaming over Bluetooth (A2DP sink) and real-time LCD output using Waveshare’s LCD library and lgpio, while a precompiled VOSK speech-to-text module enables local voice recognition to execute device control commands. Built with a CMake architecture separating hardware abstraction (HAL) and application layers. Includes testing modules and support for cross-compilation and address sanitization. Designed for seamless deployment with minimal configuration on target, emphasizing modularity, reusability, and embedded development best practices.
 
-# Project Diagram 
+## Project Diagram 
 ![Image](https://github.com/user-attachments/assets/211d9995-6745-44fe-9b87-8cf5652ee46c)
 
-# Features
+## Features
 The board operates as a Bluetooth speaker, allowing users to pair with it from a mobile device and
 play audio from apps such as YouTube and Spotify. The board includes a user interface that displays
 metadata for the currently playing audio track, along with onboard controls for play, pause, next,
@@ -14,7 +15,7 @@ physical controls. To use voice control, press the rotary encoder, say commands 
 input. Some features such as metadata required for the UI and commands may not work depending on
 the host device and app being used.
 
-# Board Controls
+## Board Controls
 - Volume: rotary encoder turn
 - Voice Command Listen: rotary encoder press to start listening, say “stop”, “play”, “next”,
 “previous”, “volume up”, or “volume down”, press again to stop listening. The corresponding
@@ -25,7 +26,7 @@ command will be run automatically.
 - Previous Song: joystick left
 - Next Song: joystick right
 
-# Hardware and Software
+## Hardware and Software
 Software
 - olive.c
   - 2d graphics library
@@ -45,7 +46,7 @@ Hardware
 - Microphone
 - Bluetooth 5.3 USB Adapter
 
-# Building Instructions
+## Building Instructions
 - (tested with fresh new VM with Debian 12.10 / For full-instructions and guides follow to set-up folder)
 - Need all the host and target set-up guides (Quick-start guide, Networking guide, NFS guide,
 Zen Cape Audio Guide)
@@ -60,7 +61,7 @@ libjson-c-dev:arm64
 - Select following cmake configuration preset: aarch64-linux-gnu
 - Need to run (on host) before running application: sudo chmod a+rw /dev/spidev0.*
 
-# Contributors 
+## Contributors 
 
 - Dmitrii Beliaev
 - Arvin Bayat Manesh
