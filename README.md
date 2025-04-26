@@ -1,6 +1,9 @@
 # BeagleY-AI Bluetooth Speaker
 Developed an embedded Linux application for the BeagleY-AI board that enables it to function as a Bluetooth speaker using the BlueZ stack and bluez_inc library with integrated voice command capabilities. The project supports real-time audio streaming over Bluetooth (A2DP sink) and real-time LCD output using Waveshare’s LCD library and lgpio, while a precompiled VOSK speech-to-text module enables local voice recognition to execute device control commands. Built with a CMake architecture separating hardware abstraction (HAL) and application layers. Includes testing modules and support for cross-compilation and address sanitization. Designed for seamless deployment with minimal configuration on target, emphasizing modularity, reusability, and embedded development best practices.
 
+# Project Diagram 
+![Image](https://github.com/user-attachments/assets/211d9995-6745-44fe-9b87-8cf5652ee46c)
+
 # Features
 The board operates as a Bluetooth speaker, allowing users to pair with it from a mobile device and
 play audio from apps such as YouTube and Spotify. The board includes a user interface that displays
