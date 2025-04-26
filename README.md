@@ -59,3 +59,10 @@ sudo apt install libgpiod-dev:arm64 libglib2.0-dev:arm64 libasound2-dev:arm64
 libjson-c-dev:arm64
 - Select following cmake configuration preset: aarch64-linux-gnu
 - Need to run (on host) before running application: sudo chmod a+rw /dev/spidev0.*
+
+# Contributors 
+
+- Dmitrii Beliaev
+- Arvin Bayat Manesh
+- William Schmidt
+- Maxwell Zhang
