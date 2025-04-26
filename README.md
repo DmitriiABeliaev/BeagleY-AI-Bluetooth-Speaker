@@ -25,17 +25,18 @@ command will be run automatically.
 # Hardware and Software
 Software
 - olive.c
-- 2d graphics library
-- https://github.com/tsoding/olive.c
+  - 2d graphics library
+  - https://github.com/tsoding/olive.c
 - stb_image
-- library for loading various image formats into memory
-- https://github.com/nothings/stb
+  - library for loading various image formats into memory
+  - https://github.com/nothings/stb
 - Binc
-- Bluez_inc bluetooth helper library from
-- https://github.com/weliem/bluez_inc
+  - Bluez_inc bluetooth helper library from
+  - https://github.com/weliem/bluez_inc
 - VOSK
-- vosk_api.h to use the model + vosk-model-small-en-us-0.15
-- https://github.com/alphacep/vosk-api/releases
+  - vosk_api.h to use the model + vosk-model-small-en-us-0.15
+  - https://github.com/alphacep/vosk-api/releases
+
 Hardware
 - Headphones / Speaker
 - Microphone
